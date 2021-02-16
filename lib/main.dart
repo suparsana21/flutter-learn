@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/views/home.dart';
-import 'package:flutter_app/views/list_produk.dart';
+import 'package:flutter_app/views/news.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ListProduk(),
+      home: Home(),
     );
   }
 }
